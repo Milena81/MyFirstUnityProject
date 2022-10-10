@@ -15,7 +15,7 @@ C:/Users/Lenovo/MyFirstProject
 -logFile
 Logs/AssetImportWorker6.log
 -srvPort
-55854
+57197
 Successfully changed project path to: C:/Users/Lenovo/MyFirstProject
 C:/Users/Lenovo/MyFirstProject
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/Lenovo/MyFirstProject
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 647.36 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 307.18 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Resources/UnitySubsystems
@@ -63,44 +63,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56848
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56324
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.111267 seconds.
+Registered in 0.059534 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 906.97 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 316.39 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  8.326 seconds
+- Completed reload, in  3.737 seconds
 Domain Reload Profiling:
-	ReloadAssembly (8328ms)
-		BeginReloadAssembly (1156ms)
+	ReloadAssembly (3739ms)
+		BeginReloadAssembly (485ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (3ms)
-		EndReloadAssembly (6051ms)
-			LoadAssemblies (1151ms)
-			RebuildTransferFunctionScriptingTraits (1ms)
-			SetupTypeCache (688ms)
+			CreateAndSetChildDomain (4ms)
+		EndReloadAssembly (2512ms)
+			LoadAssemblies (474ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (619ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (553ms)
-			SetupLoadedEditorAssemblies (3773ms)
+			RebuildScriptCaches (171ms)
+			SetupLoadedEditorAssemblies (1436ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (202ms)
+				InitializePlatformSupportModulesInManaged (70ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (907ms)
+				RefreshPlugins (317ms)
 				BeforeProcessingInitializeOnLoad (5ms)
-				ProcessInitializeOnLoadAttributes (1951ms)
-				ProcessInitializeOnLoadMethodAttributes (706ms)
+				ProcessInitializeOnLoadAttributes (758ms)
+				ProcessInitializeOnLoadMethodAttributes (285ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.041765 seconds.
+Registered in 0.033703 seconds.
