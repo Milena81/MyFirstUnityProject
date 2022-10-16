@@ -13,6 +13,7 @@ public class GameManager : MonoBehaviour
    {
         completeLevelUI.SetActive(true);
    }
+   
    public void EndGame()
    {
         if (gameHasEnded == false)
